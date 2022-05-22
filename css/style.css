@@ -1,0 +1,162 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+}
+.cont{
+    height: 90vh;
+}
+.card-main{
+    width: 85%;
+    height: 45vh;
+    border-radius: 15px;
+    position: relative;
+}
+.card-back{
+    background-color:hsl(235, 46%, 20%);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    color:aliceblue;
+    z-index: 1;
+}
+.card-front{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    border-radius: 15px;
+    background-color: hsl(246, 80%, 60%);;
+    z-index: 2;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+.sub{
+    font-size: 0.8rem;
+    font-weight: 400;
+    filter: invert(30%);
+    margin-bottom: 0px;
+}
+.name{
+    font-size: 2em;
+    font-weight: 300;
+}
+.card-front div{
+    color: white;
+    margin-left: 15%;
+}
+.card-back ul li{
+    list-style: none;
+    color: hsl(236, 100%, 87%);
+    font-size: 0.9rem;
+    font-weight:400;
+    margin: 10px;
+}
+.card-sec{
+    width: 85%;
+    height: 20vh;
+    border-radius: 15px;
+    position: relative;
+}
+.card-sec .card-sec-back{
+    width: 100%;
+    height:10vh;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 1;
+}
+.back1{
+    background-color:hsl(15, 100%, 70%);
+}
+.back2{
+    background-color: hsl(195, 74%, 62%);
+}
+.back3{
+    background-color: hsl(348, 100%, 68%);
+}
+.back4{
+    background-color: hsl(145, 58%, 55%);
+}
+.back5{
+    background-color: hsl(264, 64%, 52%);
+}
+.back6{
+    background-color: hsl(43, 84%, 65%);
+}
+.card-sec .card-sec-front{
+    width: 100%;
+    height: 17vh;
+    position: absolute;
+    top: 3vh;
+    border-radius: 15px;
+    background-color:hsl(235, 46%, 20%);
+    z-index: 2;
+}
+.card-sec .card-sec-front ul{
+    padding: 20px;
+    position: relative;
+}
+.card-sec .card-sec-front ul li{
+    list-style: none;
+    color: white;
+}
+.option-button{
+    background-color:hsl(235, 46%, 20%);
+    color: white;
+    position: absolute;
+    border: none;
+    left: 70%;
+    top: 5%;
+}
+.back-img{
+    padding-right: 15px;
+    overflow: hidden;
+}
+.back-img img{
+    margin-top: -8px;
+}
+.lvl-1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.lvl-2{
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.lvl-3{
+    font-size: 0.8rem;
+    font-weight: 400;
+    filter: invert(30%);
+}
+.card-m{
+    margin-top: 50px;
+}
+.card-back ul li:hover {
+    cursor: pointer;
+    color: white;
+}
+.card-sec-front:hover{
+    background-color:#34397b;
+    
+    transition: all 0.5s ease-in-out;
+}
+.card-sec-front:hover .option-button{
+    background-color:#34397b;
+    font-size: 29px;
+    transition: all 0.5s ease-in-out;
+}
+.card-sec-front:hover .lvl-3{
+    color:hsl(236, 100%, 87%);
+}
+.attribution{
+    filter: invert(100%);
+}
+.attribution a {
+    text-decoration: none;
+}
